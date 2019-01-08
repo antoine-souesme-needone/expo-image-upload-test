@@ -1,27 +1,34 @@
 {
-  "expo": {
-    "name": "image-upload-test",
-    "description": "This project is really great.",
-    "slug": "image-upload-test",
-    "privacy": "public",
-    "sdkVersion": "31.0.0",
-    "platforms": ["ios", "android"],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "expo": {
+        "name": "image-upload-test",
+        "description": "This project is really great.",
+        "slug": "image-upload-test",
+        "privacy": "public",
+        "sdkVersion": "31.0.0",
+        "platforms": [
+            "ios",
+            "android"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": false,
+            "bundleIdentifier": "com.antoinesouesme.expoImageUploadTest"
+        },
+        "android": {
+            "package": "com.antoinesouesme.expoImageUploadTest"
+        }
     }
-  }
 }
